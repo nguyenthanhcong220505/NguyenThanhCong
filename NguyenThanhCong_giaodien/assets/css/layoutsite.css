@@ -1,0 +1,67 @@
+.box50 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.myfooter ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.myfooter ul>li>a {
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+}
+.payment-icons {
+    display: flex;
+}
+
+.payment-icons span {
+    margin-right: 15px;
+    /* Khoảng cách giữa các hình ảnh */
+}
+/* CSS code to show dropdown menu content on hover */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #eef0f2;
+    min-width: 10rem;
+    z-index: 1000;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+/* CSS code to make carousel images loop */
+.carousel-item {
+    animation: slide 5s infinite;
+}
+
+/* CSS code to make carousel images loop */
+.carousel-item {
+    position: relative;
+    animation: slide 10s infinite;
+    opacity: 0;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+.text-danger path {
+    fill: rgb(172, 168, 91);
+    /* Thay đổi màu fill thành màu vàng */
+}
+.store-info {
+    margin-top: 5px;
+    /* Điều chỉnh giá trị này để điều chỉnh khoảng cách giữa hình và dòng chữ */
+}
+.banner-image {
+    width: 1400px;
+    /* Định nghĩa chiều rộng mới của hình ảnh */
+    height: auto;
+    /* Chiều cao tự động điều chỉnh theo tỷ lệ khung hình */
+}
